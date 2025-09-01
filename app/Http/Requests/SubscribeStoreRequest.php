@@ -38,8 +38,7 @@ class SubscribeStoreRequest extends FormRequest
             ],
             'price' => [
                 'required',
-                'numeric',
-                'min:0',
+                'string',
             ],
             'currency' => [
                 'required',
